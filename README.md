@@ -2,8 +2,10 @@
 
 ```sh
 brew install --cask kombuchelada/tap/glowbar
+brew install --cask kombuchelada/tap/netbar
 ```
 
 | Cask | Description |
 | --- | --- |
 | [glowbar](https://github.com/Kombuchelada/glowbar) | Menu bar app for the RGB lighting on GIGABYTE AORUS monitors |
+| [netbar](https://github.com/Kombuchelada/netbar) | Menu bar icon showing whether Ethernet or Wi-Fi is in use |
