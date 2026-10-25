@@ -1,6 +1,6 @@
 cask "glowbar" do
-  version "1.1.1"
-  sha256 "9e7a9a5513849681c30c899feb30659efb7e4090c7aebf0880113c4c4aeb96d9"
+  version "1.1.2"
+  sha256 "0d14fbc5664f470191debe0bd70ecfa543eec71e5069ab59bd366991d0ce63f5"
 
   url "https://github.com/Kombuchelada/glowbar/releases/download/v#{version}/Glowbar-#{version}.zip"
   name "Glowbar"
