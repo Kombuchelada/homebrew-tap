@@ -1,6 +1,6 @@
 cask "glowbar" do
-  version "1.1.3"
-  sha256 "7f259af9b354b92915264a9d32ddfb831a3e39e35c78168845af8ca184cd1c37"
+  version "1.1.4"
+  sha256 "268b3357ec9e0ec12409ffd5477978d06e53856fb9a2760782527774cd9bea0a"
 
   url "https://github.com/Kombuchelada/glowbar/releases/download/v#{version}/Glowbar-#{version}.zip"
   name "Glowbar"
@@ -20,11 +20,6 @@ cask "glowbar" do
   zap trash: "~/Library/Preferences/io.github.kombuchelada.glowbar.plist"
 
   caveats <<~EOS
-    Glowbar isn't notarized, so macOS blocks it the first time it opens.
-    Open it once, then click "Open Anyway" in
-    System Settings > Privacy & Security. Or run:
-      xattr -dr com.apple.quarantine #{appdir}/Glowbar.app
-
     Connect the monitor's USB upstream cable (USB-C or USB-B) to this Mac.
   EOS
 end
