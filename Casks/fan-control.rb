@@ -1,6 +1,6 @@
 cask "fan-control" do
-  version "1.0.2"
-  sha256 "00e60cef8bd7d0c2c9920efa66d89e8968320cd3790ee11c1e2a59b584ffaac3"
+  version "1.1"
+  sha256 "111219810b5c2282f77364627c48a4a1a64991ad12c5311eea564e433d1572ac"
 
   url "https://github.com/Kombuchelada/fan-control/releases/download/v#{version}/Fan-Control.zip"
   name "Fan Control"
