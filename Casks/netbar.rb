@@ -1,6 +1,6 @@
 cask "netbar" do
-  version "1.0.0"
-  sha256 "7fde8d41b16de361175d82f72e36521aa1f71e4e98a25a3bbf896dfd96f62385"
+  version "1.0.1"
+  sha256 "db0008ce83decd2226c23799c614c68c83886ab32d211ac1a612c4786e38e815"
 
   url "https://github.com/Kombuchelada/netbar/releases/download/v#{version}/Netbar-#{version}.zip"
   name "Netbar"
@@ -19,11 +19,4 @@ cask "netbar" do
   uninstall quit: "io.github.kombuchelada.netbar"
 
   zap trash: "~/Library/Preferences/io.github.kombuchelada.netbar.plist"
-
-  caveats <<~EOS
-    Netbar isn't notarized, so macOS blocks it the first time it opens.
-    Open it once, then click "Open Anyway" in
-    System Settings > Privacy & Security. Or run:
-      xattr -dr com.apple.quarantine #{appdir}/Netbar.app
-  EOS
 end
